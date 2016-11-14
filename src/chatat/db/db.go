@@ -1,6 +1,7 @@
 package db
 
 import (
+	"fmt"
 	"log"
 	"net/url"
 	"os"
@@ -75,6 +76,15 @@ func init() {
 	}
 	for _, sql := range createTables {
 		if _, err := db.Exec(sql); err != nil {
+			panic(err)
+		}
+	}
+}
+
+// NOTE(trey): _only_ use this for testing
+func Truncate() {
+	for _, table := range []string{"messages", "conversations"} {
+		if _, err := db.Exec(fmt.Sprintf("truncate %s cascade", table)); err != nil {
 			panic(err)
 		}
 	}

@@ -22,6 +22,10 @@ func (Conversations) CreateHandler(c *gin.Context) {
 		return
 	}
 	if err := conv.Insert(); err != nil {
+		if pgErr, ok := err.(pg.Error); ok && pgErr.Field('C') == "23505" {
+			c.AbortWithError(http.StatusConflict, err)
+			return
+		}
 		c.AbortWithError(http.StatusInternalServerError, err)
 	} else {
 		c.JSON(http.StatusOK, conv)
