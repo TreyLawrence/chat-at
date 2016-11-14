@@ -1,0 +1,90 @@
+{
+	"ImportPath": "chatat",
+	"GoVersion": "go1.7",
+	"GodepVersion": "v75",
+	"Deps": [
+		{
+			"ImportPath": "github.com/gin-gonic/gin/binding",
+			"Comment": "v1.0-4-gbb159f9",
+			"Rev": "bb159f9260a262fccbdbd6f37f8575d1e7e6aaa0"
+		},
+		{
+			"ImportPath": "github.com/gin-gonic/gin/render",
+			"Comment": "v1.0-4-gbb159f9",
+			"Rev": "bb159f9260a262fccbdbd6f37f8575d1e7e6aaa0"
+		},
+		{
+			"ImportPath": "github.com/golang/protobuf/proto",
+			"Rev": "4bd1920723d7b7c925de087aa32e2187708897f7"
+		},
+		{
+			"ImportPath": "github.com/jinzhu/inflection",
+			"Rev": "74387dc39a75e970e7a3ae6a3386b5bd2e5c5cff"
+		},
+		{
+			"ImportPath": "github.com/manucorporat/sse",
+			"Rev": "ee05b128a739a0fb76c7ebd3ae4810c1de808d6d"
+		},
+		{
+			"ImportPath": "github.com/moul/http2curl",
+			"Rev": "4e24498b31dba4683efb9d35c1c8a91e2eda28c8"
+		},
+		{
+			"ImportPath": "github.com/parnurzeal/gorequest",
+			"Comment": "v0.2.14-22-g72b36f5",
+			"Rev": "72b36f5004492e232ddc3b67c17060b252231000"
+		},
+		{
+			"ImportPath": "golang.org/x/net/context",
+			"Rev": "8566e9372a500d1344adb9fdfd943c4354ef4aa2"
+		},
+		{
+			"ImportPath": "golang.org/x/net/publicsuffix",
+			"Rev": "8566e9372a500d1344adb9fdfd943c4354ef4aa2"
+		},
+		{
+			"ImportPath": "gopkg.in/gin-gonic/gin.v1",
+			"Comment": "v1.0",
+			"Rev": "2dae550eb5392006a4582ce9c90016a9b5a74e8b"
+		},
+		{
+			"ImportPath": "gopkg.in/go-playground/validator.v8",
+			"Comment": "v8.18.1",
+			"Rev": "5f57d2222ad794d0dffb07e664ea05e2ee07d60c"
+		},
+		{
+			"ImportPath": "gopkg.in/pg.v5",
+			"Comment": "v5.0.14",
+			"Rev": "3f395a9844fbaf3a8591d6d3a067f6842e5614fb"
+		},
+		{
+			"ImportPath": "gopkg.in/pg.v5/internal",
+			"Comment": "v5.0.14",
+			"Rev": "3f395a9844fbaf3a8591d6d3a067f6842e5614fb"
+		},
+		{
+			"ImportPath": "gopkg.in/pg.v5/internal/parser",
+			"Comment": "v5.0.14",
+			"Rev": "3f395a9844fbaf3a8591d6d3a067f6842e5614fb"
+		},
+		{
+			"ImportPath": "gopkg.in/pg.v5/internal/pool",
+			"Comment": "v5.0.14",
+			"Rev": "3f395a9844fbaf3a8591d6d3a067f6842e5614fb"
+		},
+		{
+			"ImportPath": "gopkg.in/pg.v5/orm",
+			"Comment": "v5.0.14",
+			"Rev": "3f395a9844fbaf3a8591d6d3a067f6842e5614fb"
+		},
+		{
+			"ImportPath": "gopkg.in/pg.v5/types",
+			"Comment": "v5.0.14",
+			"Rev": "3f395a9844fbaf3a8591d6d3a067f6842e5614fb"
+		},
+		{
+			"ImportPath": "gopkg.in/yaml.v2",
+			"Rev": "a5b47d31c556af34a302ce5d659e6fea44d90de0"
+		}
+	]
+}
